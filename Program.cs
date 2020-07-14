@@ -10,7 +10,7 @@ namespace Imenik_File_DOmaci
 
 			static void Main(string[] args)
 			{
-				UcitavanjePodataka();
+				CitanjePodataka();
 
 				char odabirKorisnika = ' ';
 
@@ -44,7 +44,7 @@ namespace Imenik_File_DOmaci
 				Console.ReadKey();
 			}
 
-			static void UcitavanjePodataka()
+			static void CitanjePodataka()
 			{
 				if (File.Exists("imenik.txt"))
 				{
